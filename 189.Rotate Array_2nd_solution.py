@@ -22,12 +22,13 @@ class Solution(object):
         :type k: int
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-
-        for i in range(k):
+        p=len(nums)
+        q=k%p
+        for i in range(q):
             n = nums[len(nums) - 1]
             nums.insert(0,n)
             nums.pop()
-        print(nums)
+        # print(nums)
 
 
-Solution.rotate(Solution,[1,2],2)
+# Solution.rotate(Solution,[1,2],2)
