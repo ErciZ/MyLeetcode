@@ -11,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="766. Toeplitz Matrix.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/766. Toeplitz Matrix.py">
+      <file leaf-file-name="566. Reshape the Matrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/566. Reshape the Matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="483">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="485. Max Consecutive Ones.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/485. Max Consecutive Ones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -49,6 +59,9 @@
         <option value="$PROJECT_DIR$/832. Flipping an Image.py" />
         <option value="$PROJECT_DIR$/561. Array Partition I.py" />
         <option value="$PROJECT_DIR$/766. Toeplitz Matrix.py" />
+        <option value="$PROJECT_DIR$/867. Transpose Matrix.py" />
+        <option value="$PROJECT_DIR$/566. Reshape the Matrix.py" />
+        <option value="$PROJECT_DIR$/485. Max Consecutive Ones.py" />
       </list>
     </option>
   </component>
@@ -80,6 +93,11 @@
               <item name="Array" type="b2602c69:ProjectViewProjectNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="566. Reshape the Matrix.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -102,8 +120,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.766. Toeplitz Matrix">
-    <configuration name="119. Pascal's Triangle II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.485. Max Consecutive Ones">
+    <configuration name="485. Max Consecutive Ones" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -115,7 +133,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="189. Rotate Array" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/119. Pascal's Triangle II.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/485. Max Consecutive Ones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +155,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="66. Plus One" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="566. Reshape the Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -149,7 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="189. Rotate Array" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/66. Plus One.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/566. Reshape the Matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +189,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="832. Flipping an Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="867. Transpose Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -183,25 +201,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="189. Rotate Array" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/832. Flipping an Image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/867. Transpose Matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.66. Plus One" />
-      <item index="1" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
-      <item index="2" class="java.lang.String" itemvalue="Python.832. Flipping an Image" />
-      <item index="3" class="java.lang.String" itemvalue="Python.561. Array Partition I" />
-      <item index="4" class="java.lang.String" itemvalue="Python.766. Toeplitz Matrix" />
+      <item index="0" class="java.lang.String" itemvalue="Python.561. Array Partition I" />
+      <item index="1" class="java.lang.String" itemvalue="Python.766. Toeplitz Matrix" />
+      <item index="2" class="java.lang.String" itemvalue="Python.867. Transpose Matrix" />
+      <item index="3" class="java.lang.String" itemvalue="Python.566. Reshape the Matrix" />
+      <item index="4" class="java.lang.String" itemvalue="Python.485. Max Consecutive Ones" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.766. Toeplitz Matrix" />
-        <item index="1" class="java.lang.String" itemvalue="Python.561. Array Partition I" />
-        <item index="2" class="java.lang.String" itemvalue="Python.832. Flipping an Image" />
-        <item index="3" class="java.lang.String" itemvalue="Python.119. Pascal's Triangle II" />
-        <item index="4" class="java.lang.String" itemvalue="Python.66. Plus One" />
+        <item index="0" class="java.lang.String" itemvalue="Python.485. Max Consecutive Ones" />
+        <item index="1" class="java.lang.String" itemvalue="Python.566. Reshape the Matrix" />
+        <item index="2" class="java.lang.String" itemvalue="Python.867. Transpose Matrix" />
+        <item index="3" class="java.lang.String" itemvalue="Python.766. Toeplitz Matrix" />
+        <item index="4" class="java.lang.String" itemvalue="Python.561. Array Partition I" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +265,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
       <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
@@ -497,8 +522,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/766. Toeplitz Matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="463">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/867. Transpose Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/566. Reshape the Matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/485. Max Consecutive Ones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
