@@ -25,7 +25,7 @@ var findMaxConsecutiveOnes = function(nums) {
     return Math.max(...result)
 };
 
-var findMaxConsecutiveOnes2 = function(nums) {
+var findMaxConsecutiveOnes1 = function(nums) {
     const windowOpen=[]
     const windowClose=[]
     nums.unshift(0)
@@ -45,14 +45,24 @@ var findMaxConsecutiveOnes2 = function(nums) {
     if (windowOpen.length===0){
         return 0
     }
-    console.log(nums)
-    console.log(windowOpen)
-    console.log(windowClose)
     const result=[]
     for(var j=0;j<windowOpen.length;j++){
         result.push(windowClose[j]-windowOpen[j]+1)
     }
     return Math.max(...result)
+};
+
+
+var findMaxConsecutiveOnes2 = function(nums) {
+    let count = 0;
+    let result = 0;
+    for (var i=0;i<nums.length;i++){
+        (nums[i]===1)?count=count+1:count=0;
+        if(result<count){
+            result=count
+        }
+    }
+    return result;
 };
 // @lc code=end
 
