@@ -10,7 +10,7 @@
  * @return {void} Do not return anything, modify arr in-place instead.
  */
 var duplicateZeros = function(arr) {
-    
+    console.log('test')
 };
 // @lc code=end
 
