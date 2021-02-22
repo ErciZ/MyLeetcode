@@ -25,7 +25,7 @@ const binarySearch =(nums,target)=>{
     let right = nums.length-1;
     let mid ;
     while (left<=right){
-        mid=Math.round(left + (right-left)/2)
+        mid=Math.floor(left + (right-left)/2)
         if(nums[mid]===target){
             return mid;
         }else if(nums[mid]<target){
@@ -45,7 +45,7 @@ const left_bound1=(nums,target)=>{
     let mid;
 
     while (left<right){
-        mid=Math.round((left+right)/2);
+        mid=Math.floor((left+right)/2);
         if(nums[mid]===target){
             right=mid;
         }else if(nums[mid]<target){
@@ -67,7 +67,7 @@ const left_bound2=(nums,target)=>{
     let mid;
 
     while(left<=right){
-        mid=Math.round(left+(right-left)/2)
+        mid=Math.floor(left+(right-left)/2)
         if(nums[mid]===target){
             right=mid-1;
         }else if(nums[mid]<target){
@@ -92,7 +92,7 @@ const right_bound1=(nums,target)=>{
     let mid;
 
     while (left<right){
-        mid=Math.round((left+right)/2);
+        mid=Math.floor((left+right)/2);
         if(nums[mid]===target){
             left=mid+1;
         }else if(nums[mid]<target){
@@ -110,11 +110,11 @@ const right_bound1=(nums,target)=>{
 const right_bound2=(nums,target)=>{
     if(nums.length===0){return -1}
     let left=0;
-    let right=num.length-1;
+    let right=nums.length-1;
     let mid;
 
     while(left<=right){
-        mid=Math.round(left+(right-left)/2)
+        mid=Math.floor(left+(right-left)/2)
         if(nums[mid]===target){
             left=mid+1;
         }else if(nums[mid]<target){
